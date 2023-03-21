@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224B055629C164F700432266 /* EduardosLab6.asm in Sources */ = {isa = PBXBuildFile; fileRef = 224B055529C164F700432266 /* EduardosLab6.asm */; };
+		224B0E1229C97F1E00996725 /* EdsLab7.asm in Sources */ = {isa = PBXBuildFile; fileRef = 224B0E1129C97F1E00996725 /* EdsLab7.asm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		224B054B29C164DB00432266 /* EdsLabSix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EdsLabSix; sourceTree = BUILT_PRODUCTS_DIR; };
 		224B055529C164F700432266 /* EduardosLab6.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = EduardosLab6.asm; sourceTree = "<group>"; };
+		224B0E1129C97F1E00996725 /* EdsLab7.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = EdsLab7.asm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				224B055529C164F700432266 /* EduardosLab6.asm */,
+				224B0E1129C97F1E00996725 /* EdsLab7.asm */,
 			);
 			path = EdsLabSix;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224B055629C164F700432266 /* EduardosLab6.asm in Sources */,
+				224B0E1229C97F1E00996725 /* EdsLab7.asm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
