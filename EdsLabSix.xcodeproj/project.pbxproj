@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22F464EC29CC1A9100ADE059 /* EdsLab8.asm in Sources */ = {isa = PBXBuildFile; fileRef = 22F464EB29CC1A9100ADE059 /* EdsLab8.asm */; };
+		2238885C29E9EF8600A03AEE /* EdsLab9.asm.s in Sources */ = {isa = PBXBuildFile; fileRef = 2238885B29E9EF8600A03AEE /* EdsLab9.asm.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2238885B29E9EF8600A03AEE /* EdsLab9.asm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = EdsLab9.asm.s; sourceTree = "<group>"; };
 		224B054B29C164DB00432266 /* EdsLabSix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EdsLabSix; sourceTree = BUILT_PRODUCTS_DIR; };
 		224B055529C164F700432266 /* EduardosLab6.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = EduardosLab6.asm; sourceTree = "<group>"; };
 		224B0E1129C97F1E00996725 /* EdsLab7.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = EdsLab7.asm; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 				224B055529C164F700432266 /* EduardosLab6.asm */,
 				224B0E1129C97F1E00996725 /* EdsLab7.asm */,
 				22F464EB29CC1A9100ADE059 /* EdsLab8.asm */,
+				2238885B29E9EF8600A03AEE /* EdsLab9.asm.s */,
 			);
 			path = EdsLabSix;
 			sourceTree = "<group>";
@@ -93,7 +95,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					224B054A29C164DB00432266 = {
 						CreatedOnToolsVersion = 14.2;
@@ -123,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F464EC29CC1A9100ADE059 /* EdsLab8.asm in Sources */,
+				2238885C29E9EF8600A03AEE /* EdsLab9.asm.s in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +165,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -221,6 +224,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -243,6 +247,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -251,6 +256,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
